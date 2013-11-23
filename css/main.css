@@ -4,12 +4,19 @@ h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
 }
 
 body {
+  font-family: 'Georgia', serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+/*
+body {
   font-family: 'Lora', serif;
   font-size: 21px;
   line-height: 1.52;
   background-color: #f8f8f8;
   text-rendering: optimizeLegibility;
 }
+*/
 
 .content-wrap {
   width: 34em;
@@ -30,7 +37,7 @@ p {
 }
 
 pre {
-  font-size: 0.9em;
+  /*font-size: 0.9em;*/
   overflow: auto;
   background: #fff;
   border: 1px dashed #d2d2d2;
@@ -53,7 +60,7 @@ h2 {
 
 h3 {
   font-style: italic;
-  text-align: center;
+  text-align: left;
   font-weight: 400;
   font-size: 1.4em;
   margin-top: 1.8em;
@@ -89,7 +96,7 @@ hr {
 
 .header h1 {
   font-size: 2.6em;
-  text-align: center;
+  text-align: left;
   font-weight: 700;
   margin: 0;
 }
@@ -104,7 +111,7 @@ hr {
   font-variant: small-caps;
   text-transform: lowercase;
   text-rendering: auto;
-  text-align: center;
+  text-align: left;
   font-weight: 400;
   letter-spacing: 1px;
 }
@@ -112,8 +119,7 @@ hr {
 .header .description {
   font-size: 1.2em;
   font-style: italic;
-  text-align: center;
-  margin-top: -0.3em;
+  text-align: left;
 }
 
 body.article-detail > header h1 {
@@ -134,7 +140,7 @@ footer {
 }
 
 footer .nav {
-  text-align: center;
+  text-align: left;
   margin-top: 5em;
   margin-bottom: 3.5em;
 }
@@ -182,7 +188,7 @@ footer .copy, footer .copy a {
 
 .article header h2 {
   font-style: italic;
-  text-align: center;
+  text-align: left;
   font-weight: 400;
   margin: 0.8em 0;
   font-size: 1.4em;
@@ -193,7 +199,7 @@ footer .copy, footer .copy a {
 }
 
 .article header .date {
-  text-align: center;
+  text-align: left;
   font-size: 0.8em;
   margin-top: -0.7em;
 }
@@ -293,7 +299,8 @@ footer .copy, footer .copy a {
 /* code styling */
 
 code {
-  font-family: 'Anonymous Pro', monospace;
+  /*font-family: 'Anonymous Pro', monospace;*/
+  font-family: Consolas, monaco, monospace;
   font-size: 0.85em;
   color: #000;
 }

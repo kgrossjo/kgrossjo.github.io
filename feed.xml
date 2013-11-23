@@ -10,11 +10,26 @@
     <language>en</language>
     <item>
       <title>The first post on Wintersmith</title>
-      <link>http://kgrossjo.github.io/articles/wintersmith-install/</link>
+      <link>http://kgrossjo.github.io/articles/2013-11/</link>
       <pubDate>Wed, 20 Nov 2013 01:00:00 +0100</pubDate>
-      <guid isPermaLink="true">http://kgrossjo.github.io/articles/wintersmith-install/</guid>
+      <guid isPermaLink="true">http://kgrossjo.github.io/articles/2013-11/</guid>
       <author></author>
-      <description>&lt;h1 id=&quot;title-test&quot;&gt;Title test&lt;/h1&gt;
+      <description>&lt;p&gt;This is my first post using Wintersmith.  Seems like it is easy enough
+to use.  We will see how it goes.&lt;/p&gt;
+&lt;p&gt;Why did I choose Wintersmith?  Well, first I had the idea of hosting
+my blog on github pages, then I saw that jekyll can be used, then I
+learned more about jekyll and saw that it uses Ruby.  But right now,
+I’m more interested in learning Node.js, so I thought perhaps I
+can find something using Node.js, and — lo! — I found Wintersmith.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://stephanhoyer.github.io/articles/001-building-wintersmith-blog/&quot;&gt;http://stephanhoyer.github.io/articles/001-building-wintersmith-blog/&lt;/a&gt;
+This guy explains how to make it work with github pages.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/jnordberg/wintersmith&quot;&gt;https://github.com/jnordberg/wintersmith&lt;/a&gt;
+This seems to be the Wintersmith home page.&lt;/p&gt;
+&lt;p&gt;Everything below is standard Wintersmith content.  I want to keep it
+for the time being for learning purposes.  I want to delete stuff
+when I feel I’ve learned enough.&lt;/p&gt;
+&lt;p&gt;Let’s see how code looks:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;wintersmith --preview&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     <item>

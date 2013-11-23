@@ -2,11 +2,14 @@
 title: The first post on Wintersmith
 author: Kai Grossjohann
 date: 2013-11-20
+tags: wintersmith
 template: article.jade
 ---
 
 This is my first post using Wintersmith.  Seems like it is easy enough
 to use.  We will see how it goes.
+
+---
 
 Why did I choose Wintersmith?  Well, first I had the idea of hosting
 my blog on github pages, then I saw that jekyll can be used, then I
