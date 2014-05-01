@@ -9,6 +9,100 @@
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
+      <title>Cherry Strait - Nice Keyboard</title>
+      <link>http://kgrossjo.github.io/articles/2014-05-cherry-strait/</link>
+      <pubDate>Thu, 01 May 2014 02:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://kgrossjo.github.io/articles/2014-05-cherry-strait/</guid>
+      <author></author>
+      <description>&lt;p&gt;MacBook keyboard aficionados may like the Cherry Strait.
+It has the feel of the MacBook keyboard.
+It is very flat.  Little force is required to depress the keys.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Kudos to my colleague &lt;a href=&quot;https://plus.google.com/+DanielFlinkmann/posts&quot;&gt;Daniel
+Flinkmann&lt;/a&gt; who suggested the
+Cherry Strait as a keyboard that looks and feels similar  to the MacBook
+keyboards.  I must say, I like the feel of the MacBook keyboard. Some folks may
+laugh and say that only the IBM Model 2 is the real keyboard (&lt;a href=&quot;http://www.daskeyboard.com/&quot;&gt;Das
+Keyboard&lt;/a&gt; anyone?). I let them laugh and I’m happy
+with this keyboard.&lt;/p&gt;
+&lt;p&gt;(Some years ago they laughed at me for using a &lt;a href=&quot;http://www.pfusystems.com/embedded-keyboard/hhkb/index.html&quot;&gt;Happy Hacking Keyboard Lite
+2&lt;/a&gt;.  They asked me
+whether I didn’t have enough money to buy a full keyboard.)&lt;/p&gt;
+&lt;p&gt;The only problem here is an oddity in the keyboard layout.
+There is a block of six keys above the cursor keys:&lt;/p&gt;
+&lt;table border=&quot;2&quot; frame=&quot;box&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Insert&lt;/td&gt;
+    &lt;td&gt;Home&lt;/td&gt;
+    &lt;td&gt;Page Up&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Delete&lt;/td&gt;
+    &lt;td&gt;End&lt;/td&gt;
+    &lt;td&gt;Page Down&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;The Cherry Strait modifies this from a 3x2 format to a 2x3 format, like this:&lt;/p&gt;
+&lt;table border=&quot;2&quot; frame=&quot;box&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Insert&lt;/td&gt;
+    &lt;td&gt;End&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Delete&lt;/td&gt;
+    &lt;td&gt;Page Up&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Home&lt;/td&gt;
+    &lt;td&gt;Page Down&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;And the position of the Home key at the bottom left and the End key at the top
+right, that’s just completely counter-intuitive.  Home should not be at the
+bottom and End should not be at the top.&lt;/p&gt;
+&lt;p&gt;So I emailed their support and suggested to move things around, and they
+said that the keyboard layout had to be modified to maintain the design
+of this lifestyle product.  I must say, that’s a weird response.  It’s
+not necessary to change the 2x3 layout, we just need to move the keys around.
+I propose this layout:&lt;/p&gt;
+&lt;table border=&quot;2&quot; frame=&quot;box&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Home&lt;/td&gt;
+    &lt;td&gt;End&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Insert&lt;/td&gt;
+    &lt;td&gt;Page Up&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Delete&lt;/td&gt;
+    &lt;td&gt;Page Down&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;I see the following advantages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Having Home on the left and End on the right makes complete sense.
+After all, usually, Home goes to the beginning of the line (i.e. to 
+the left) and End goes to the end of the line (i.e. to the right).&lt;/li&gt;
+&lt;li&gt;Having Insert in the left column on the middle is good because that
+spot is hard to find and most people don’t need the Insert key often.
+Makes sense to put the most seldom used key in the most inconvenient
+spot.&lt;/li&gt;
+&lt;li&gt;Having Page Up above Page Down also makes complete sense based on
+what the keys do.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
       <title>Looking for a vim like Safari extension</title>
       <link>http://kgrossjo.github.io/articles/2014-05-vimlike-safariextension/</link>
       <pubDate>Thu, 01 May 2014 02:00:00 +0200</pubDate>
