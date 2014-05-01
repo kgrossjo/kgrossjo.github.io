@@ -8,7 +8,7 @@ template: article.jade
 
 I use Safari on my Mac because of its smooth integration into the Mac
 experience, but then I found out that I do miss vi keyboard shortcuts.
-(vimlike extended)[https://github.com/sethfowler/vimlike-extended] to the
+[vimlike extended](https://github.com/sethfowler/vimlike-extended) to the
 rescue!
 
 ---
