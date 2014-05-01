@@ -8,14 +8,14 @@ template: article.jade
 
 I use Safari on my Mac because of its smooth integration into the Mac
 experience, but then I found out that I do miss vi keyboard shortcuts.
-[vimlike extended](https://github.com/sethfowler/vimlike-extended) to the
-rescue!
+"vimlike extended" to the rescue!
 
 ---
 
 There seem to be a couple of Safari extensions that do vi or vim like
 keyboard shortcuts.  One of them does link hinting only, but not h/j/k/l
-scrolling.  So I'm happy I found one that does both.
+scrolling.  So I'm happy I found one that does both:
+[vimlike extended](https://github.com/sethfowler/vimlike-extended)
 
 It's a bit embarrassing to admit that I don't know how to convert a source
 tree into something that can be installed as a Safari extension.  I kind of
