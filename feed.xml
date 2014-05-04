@@ -5,9 +5,65 @@
     <atom:link href="http://kgrossjo.github.io/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://kgrossjo.github.io</link>
     <description>Notes of an insignificant developer</description>
-    <pubDate>Thu, 01 May 2014 02:00:00 +0200</pubDate>
+    <pubDate>Sun, 04 May 2014 02:00:00 +0200</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Front end Javascript development</title>
+      <link>http://kgrossjo.github.io/articles/2014-05-front-end-js/</link>
+      <pubDate>Sun, 04 May 2014 02:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://kgrossjo.github.io/articles/2014-05-front-end-js/</guid>
+      <author></author>
+      <description>&lt;p&gt;Doing simple things with front-end Javascript development
+really does turn out to be simple.  I’m trying to dip
+my toes in front-end Javascript development (having the
+opportunity to do some server-side Javascript development
+in my day job).&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Today, I had the chance to fix two little buttons that made
+text on a web page larger or smaller.  It’s really interesting
+to see how easy this is to do.  Of course, it’s just a very 
+simple task in the first place, but given that I have so little
+experience, I thought it might have turned out to be harder
+for me.&lt;/p&gt;
+&lt;p&gt;Basically, the idea is that you have one HTML element that
+contains all your content (you can use &lt;code&gt;body&lt;/code&gt; if you can’t find
+another one).  And you write your CSS so that the font size
+is a parameter of that element.  (I guess you can use relative
+font sizes for other elements.)&lt;/p&gt;
+&lt;p&gt;Now changing the font size is just a matter of changing this
+CSS in one central place, and jQuery makes it easy:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;$(&lt;span class=&quot;string&quot;&gt;'#container'&lt;/span&gt;).css(&lt;span class=&quot;string&quot;&gt;'font-size'&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This returns a string such as “16px” that tells you the font
+size.  And you can change it with&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;$(&lt;span class=&quot;string&quot;&gt;'#container'&lt;/span&gt;).css(&lt;span class=&quot;string&quot;&gt;'font-size'&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;'18px'&lt;/span&gt;);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Very easy.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Looking for a vim like Safari extension</title>
+      <link>http://kgrossjo.github.io/articles/2014-05-vimlike-safariextension/</link>
+      <pubDate>Thu, 01 May 2014 02:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://kgrossjo.github.io/articles/2014-05-vimlike-safariextension/</guid>
+      <author></author>
+      <description>&lt;p&gt;I use Safari on my Mac because of its smooth integration into the Mac
+experience, but then I found out that I do miss vi keyboard shortcuts.
+“vimlike extended” to the rescue!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;There seem to be a couple of Safari extensions that do vi or vim like
+keyboard shortcuts.  One of them does link hinting only, but not h/j/k/l
+scrolling.  So I’m happy I found one that does both:
+&lt;a href=&quot;https://github.com/sethfowler/vimlike-extended&quot;&gt;vimlike extended&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It’s a bit embarrassing to admit that I don’t know how to convert a source
+tree into something that can be installed as a Safari extension.  I kind of
+guessed I could just create a &lt;code&gt;xar&lt;/code&gt; archive and name it &lt;code&gt;foo.safariextz&lt;/code&gt;,
+but that didn’t work out: Safari told me  that there was an error installing
+the extension.  But it didn’t tell me what the error was.  So I’m happy that
+“vimlike extended” comes with  a pre-built extension.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Cherry Strait - Nice Keyboard</title>
       <link>http://kgrossjo.github.io/articles/2014-05-cherry-strait/</link>
@@ -100,28 +156,6 @@ spot.&lt;/li&gt;
 &lt;li&gt;Having Page Up above Page Down also makes complete sense based on
 what the keys do.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    <item>
-      <title>Looking for a vim like Safari extension</title>
-      <link>http://kgrossjo.github.io/articles/2014-05-vimlike-safariextension/</link>
-      <pubDate>Thu, 01 May 2014 02:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://kgrossjo.github.io/articles/2014-05-vimlike-safariextension/</guid>
-      <author></author>
-      <description>&lt;p&gt;I use Safari on my Mac because of its smooth integration into the Mac
-experience, but then I found out that I do miss vi keyboard shortcuts.
-“vimlike extended” to the rescue!&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;There seem to be a couple of Safari extensions that do vi or vim like
-keyboard shortcuts.  One of them does link hinting only, but not h/j/k/l
-scrolling.  So I’m happy I found one that does both:
-&lt;a href=&quot;https://github.com/sethfowler/vimlike-extended&quot;&gt;vimlike extended&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;It’s a bit embarrassing to admit that I don’t know how to convert a source
-tree into something that can be installed as a Safari extension.  I kind of
-guessed I could just create a &lt;code&gt;xar&lt;/code&gt; archive and name it &lt;code&gt;foo.safariextz&lt;/code&gt;,
-but that didn’t work out: Safari told me  that there was an error installing
-the extension.  But it didn’t tell me what the error was.  So I’m happy that
-“vimlike extended” comes with  a pre-built extension.&lt;/p&gt;
 </description>
     </item>
     <item>
