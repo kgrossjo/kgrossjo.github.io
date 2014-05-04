@@ -19,3 +19,11 @@ preview:
 	wintersmith preview &
 	sleep 5
 	open 'http://localhost:4000/'
+
+clean:
+	if [ -d ../.git ]; then \
+		rm -rf ../articles ../css ../page ../*.html ../feed.xml; \
+	else \
+		echo "ERROR: No such directory '../.git', are you in the right directory?" ; \
+		exit 1; \
+	fi
