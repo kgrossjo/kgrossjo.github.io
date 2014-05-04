@@ -12,5 +12,10 @@ new:
 		exit 1; \
 	fi; \
 	mkdir contents/articles/$(NAME); \
-	cp template.md contents/articles/$(NAME); \
+	cp template.md contents/articles/$(NAME)/index.md; \
 	echo "Now edit contents/articles/$(NAME)/index.md"
+
+preview:
+	wintersmith preview &
+	sleep 5
+	open 'http://localhost:4000/'
