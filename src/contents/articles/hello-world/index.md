@@ -9,6 +9,8 @@ Welcome to your new blog! This is the default blog template with RSS, pagination
 
 ## _Repeat after me:_ This is my blog. There are many like it, but this one is mine. My blog is my best friend. It is my life. I must master it as I must master my life. My blog, without me, is useless. Without my blog, I am useless.
 
+---
+
 Good, now, the directory structure of your blog is as follows:
 
 ```
@@ -60,6 +62,8 @@ date: 2012-12-12 12:12
 ---
 
 This will be shown as the article excerpt.
+
+---
 
 ## A h2, hr or <span class="more"> marks where the intro cuts off
 
